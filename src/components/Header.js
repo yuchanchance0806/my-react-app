@@ -1,10 +1,11 @@
 import React from 'react';
-import './Header.css';
+import './Header.css'; // スタイルシート
 
 function Header() {
   return (
     <header className="header">
-      <h1>Welcome to My App</h1>
+      <h1>サイトタイトル</h1>
+      // その他のヘッダーコンテンツ
     </header>
   );
 }

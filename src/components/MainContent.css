@@ -1,4 +1,35 @@
-.main-content {
-    padding: 20px;
+/* MainContent.css */
+.main-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .comparison-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .comparison-table th, .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .list-item {
+    margin-bottom: 20px;
+  }
+  
+  .list-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .list-item p {
+    margin-bottom: 10px;
+  }
+  
+  .list-item a {
+    color: blue;
+    text-decoration: none;
   }
   
