@@ -55,4 +55,20 @@
     }
   }
   
+  .your-custom-class {
+    display: block; /* スマートフォンでは常に表示 */
+  }
+  
+  .your-pc-custom-class {
+    display: none; /* 最初は表示しない */
+  }
+  
+  @media (min-width: 769px) {
+    .your-custom-class {
+      display: none; /* パソコン版では非表示 */
+    }
+    .your-pc-custom-class {
+      display: block; /* パソコン版では表示 */
+    }
+  }
   
