@@ -1,0 +1,17 @@
+.article-content {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+  }
+  
+  .article-content h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .article-content p {
+    color: #666;
+  }
+  

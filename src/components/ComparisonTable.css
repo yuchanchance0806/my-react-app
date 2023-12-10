@@ -1,0 +1,112 @@
+.comparison-table {
+    width: 100%; /* 表の幅を100%に設定 */
+    margin: 0 auto; /* 左右のマージンを自動にして中央寄せ */
+    text-align: center; /* テキストを中央揃え */
+  }
+  
+  .comparison-table table {
+    margin: 0 auto; /* テーブルも中央に寄せる */
+    /* その他のテーブルスタイル */
+  }
+  
+  /* テーブルの各セルのスタイルを調整 */
+  .comparison-table th, 
+  .comparison-table td {
+    text-align: center; /* セルの内容も中央揃え */
+    /* その他のセルスタイル */
+  }
+  
+  .comparison-table {
+    width: 100%; /* 表の幅を100%に設定 */
+    margin: 20px auto; /* 上下のマージンを追加し、左右は自動で中央寄せ */
+    text-align: center; /* テキストを中央揃え */
+  }
+  
+  .comparison-table h2 {
+    margin-bottom: 20px; /* ヘッダーと表の間の余白 */
+  }
+  
+  .comparison-table table {
+    margin: 0 auto; /* テーブルも中央に寄せる */
+    border-collapse: collapse; /* セルの境界線を一本線にする */
+    max-width: 800px; /* テーブルの最大幅を設定 */
+  }
+  
+  /* テーブルヘッダーのスタイル */
+  .comparison-table th {
+    background-color: #f8f8f8; /* 背景色 */
+    color: #333; /* 文字色 */
+    padding: 10px; /* パディング */
+    border: 1px solid #ddd; /* ボーダー */
+  }
+  
+  /* テーブルデータのスタイル */
+  .comparison-table td {
+    text-align: center; /* セルの内容も中央揃え */
+    padding: 10px; /* パディング */
+    border: 1px solid #ddd; /* ボーダー */
+  }
+  
+  /* リンクのスタイル */
+  .comparison-table td a {
+    color: #0066cc; /* リンクの色 */
+    text-decoration: none; /* 下線を無効化 */
+  }
+  
+  .comparison-table td a:hover {
+    text-decoration: underline; /* ホバー時に下線を表示 */
+  }
+  
+  .comparison-table .company-logo {
+    width: 50px; /* ロゴのサイズ調整 */
+    height: auto;
+    margin-right: 10px; /* ロゴとテキストの間隔 */
+  }
+  
+  .comparison-table .details-button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none; /* リンクの下線を消す */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block; /* ボタンをインラインブロックに */
+  }
+  
+  .comparison-table .details-button:hover {
+    background-color: #0056b3;
+  }
+  .comparison-table .logo-cell {
+    width: 50px; /* ロゴの幅を指定 */
+    padding-right: 10px; /* ロゴとテキストの間隔 */
+}
+
+.comparison-table .company-logo {
+    width: 100%; /* ロゴのサイズを調整 */
+    height: auto; /* 高さは自動調整 */
+}
+
+.comparison-table .text-cell {
+    /* 必要に応じてスタイルを調整 */
+}
+.comparison-table {
+  /* 既存のスタイル */
+}
+
+@media (max-width: 768px) {
+  .comparison-table {
+    /* スマートフォン用の比較テーブルスタイル */
+  }
+}
+
+.comparison-table {
+  /* 既存のスタイル */
+}
+
+@media (max-width: 768px) {
+  .comparison-table table {
+      width: 100%; /* テーブルの幅を調整 */
+      font-size: 12px; /* フォントサイズを小さく */
+  }
+}

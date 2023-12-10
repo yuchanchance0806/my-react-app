@@ -1,11 +1,11 @@
 import React from 'react';
-import './Header.css'; // スタイルシート
+import './Header.css'; // あなたのCSSファイルへのパス
 
 function Header() {
   return (
     <header className="header">
-      <h1>サイトタイトル</h1>
-      // その他のヘッダーコンテンツ
+      <img src="/images/metrocareer-logo.png" alt="MetroCareer Logo" />
+      {/* その他のヘッダー要素 */}
     </header>
   );
 }

@@ -1,14 +1,18 @@
 import React from 'react';
-import './App.css';
+import ComparisonTable from './components/ComparisonTable';
 import Header from './components/Header';
-import MainContent from './components/MainContent';
+import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <MainContent />
+      <div className="content">
+        <Sidebar />
+        <ComparisonTable />
+      </div>
       <Footer />
     </div>
   );

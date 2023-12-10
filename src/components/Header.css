@@ -1,8 +1,40 @@
 .header {
-  background-color: #fff;
+  
   padding: 10px 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
+}
+
+.header img {
+  height: 50px; /* ロゴの高さ */
+  /* 必要に応じて他のスタイリング */
+}
+.header {
+  /* 既存のスタイル */
+}
+
+/* スマートフォンや小さい画面サイズ用 */
+@media (max-width: 768px) {
+  .header {
+    /* 小さい画面用のヘッダースタイル */
+  }
+}
+
+.header {
+  /* 既存のスタイル */
+}
+
+@media (max-width: 768px) {
+  .header {
+      padding: 5px 10px; /* スマートフォンではパディングを小さく */
+  }
+}
+
+.header {
+  background-color: #014f86; /* ヘッダーの背景色 */
+  color: #a9d6e5; /* ヘッダーのテキスト色 */
+  /* その他のスタイル */
 }

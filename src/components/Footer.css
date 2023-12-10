@@ -1,7 +1,61 @@
-.footer {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
+.site-footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    margin-right: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #0056b3;
+}
+
+.footer-bottom {
     text-align: center;
+    color: #6c757d;
+}
+.site-footer {
+    background-color: #e6f2ff; /* ヘッダーと同じ背景色 */
+    color: #333;
+    /* その他のフッタースタイル */
+  }
+  
+  .footer {
+    /* 既存のスタイル */
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      /* スマートフォン用のフッタースタイル */
+    }
+  }
+  
+  .footer {
+    background-color: #013a63; /* フッターの背景色 */
+    color: #89c2d9; /* フッターのテキスト色 */
+    /* その他のスタイル */
   }
   

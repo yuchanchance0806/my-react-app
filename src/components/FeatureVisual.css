@@ -1,0 +1,45 @@
+.feature-visual {
+    text-align: center;
+    background-color: #012a4a; /* 例えば青色の背景 */
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-visual h1 {
+    margin-bottom: 10px;
+  }
+  
+  .feature-visual p {
+    margin-bottom: 5px;
+  }
+  
+  .feature-visual img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .feature-visual .main-title .title-line {
+    display: block; /* ブロック要素として表示 */
+  }
+  
+  /* スマートフォン用画像のスタイル */
+.student-image.smartphone-image {
+    display: block; /* スマートフォンでは表示 */
+  }
+  
+  /* パソコン用画像のスタイル */
+  .student-image.desktop-image {
+    display: none; /* スマートフォンでは非表示 */
+  }
+  
+  /* 画面サイズがパソコンの閾値以上の場合 */
+  @media (min-width: 768px) {
+    .student-image.smartphone-image {
+      display: none; /* パソコンでは非表示 */
+    }
+    .student-image.desktop-image {
+      display: block; /* パソコンでは表示 */
+    }
+  }
+  

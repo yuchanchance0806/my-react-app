@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar {
+  width: 20%;
+  /* その他のスタイル */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.main-content {
+  width: 75%;
+  /* その他のスタイル */
+}
+.App {
+  background-color: #f0f8ff; /* 淡い青色の背景 */
+  color: #333; /* テキスト色を暗めに */
+}
+
+body {
+  /* 既存のスタイル */
+}
+
+@media (max-width: 768px) {
+  body {
+      font-size: 14px; /* スマートフォンではフォントサイズを小さく */
   }
-  to {
-    transform: rotate(360deg);
+}
+/* 既存のスタイル */
+.content {
+  display: flex;
+  /* その他のスタイル */
+}
+
+.sidebar {
+  /* 既存のスタイル */
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column; /* スマートフォンではフレックスボックスの方向を縦に */
+  }
+
+  .sidebar {
+    display: block; /* スマートフォンではサイドバーを表示 */
+    width: 100%; /* 幅を調整 */
+    order: 2; /* コンテンツの後に表示 */
+  }
+
+  .comparison-table {
+    order: 1; /* これを先に表示 */
   }
 }
