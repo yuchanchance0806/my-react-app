@@ -43,3 +43,9 @@
     }
   }
   
+  @media (max-width: 768px) {
+    .your-custom-class {
+      /* スマートフォン用のスタイル */
+    }
+  }
+  

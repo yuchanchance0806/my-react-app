@@ -9,7 +9,7 @@ function FeatureVisual() {
         <span className="title-line">転職エージェント</span> {/* spanタグで囲む */}
         <span className="title-line">おすすめランキング</span>
       </h1>
-      <img src="/path-to-smartphone-image.jpg" alt="就活生（スマートフォン用）" className="student-image smartphone-image" />
+      <img src="/images/your-image.jpg" alt="就活生の画像" className="your-custom-class"/>
       <img src="/path-to-desktop-image.jpg" alt="就活生（パソコン用）" className="student-image desktop-image" />
       {/* その他の要素 */}
     </div>
