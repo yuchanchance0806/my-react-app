@@ -59,3 +59,9 @@
     /* その他のスタイル */
   }
   
+  @media (min-width: 769px) {
+    .your-pc-custom-class {
+      /* パソコン版用のスタイル */
+    }
+  }
+  

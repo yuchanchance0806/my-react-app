@@ -43,9 +43,16 @@
     }
   }
   
+  @media (min-width: 769px) {
+    .your-pc-custom-class {
+      /* パソコン版用のスタイル */
+    }
+  }
+
   @media (max-width: 768px) {
     .your-custom-class {
       /* スマートフォン用のスタイル */
     }
   }
+  
   

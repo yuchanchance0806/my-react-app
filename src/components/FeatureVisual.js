@@ -10,7 +10,7 @@ function FeatureVisual() {
         <span className="title-line">おすすめランキング</span>
       </h1>
       <img src="/images/your-image.jpg" alt="就活生の画像" className="your-custom-class"/>
-      <img src="/path-to-desktop-image.jpg" alt="就活生（パソコン用）" className="student-image desktop-image" />
+      <img src="/images/your-pc-image.jpg" alt="就活生の画像（PC版）" className="your-pc-custom-class"/>
       {/* その他の要素 */}
     </div>
   );
